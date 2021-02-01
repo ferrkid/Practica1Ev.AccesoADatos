@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="file:/C:/Users/fptar/OneDrive/Documentos/NetBeansProjects/Recuperacion1Evaluacion/../../../Escritorio/EjerciciosNotePad++/tiendaMoviles.xsd" uri="xml-resources/jaxb/javaTienda_binding/tiendaMoviles.xsd"/>
+</catalog>

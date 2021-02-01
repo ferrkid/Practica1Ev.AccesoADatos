@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.0">
+	<xsd:element name="TLFHouse">
+		<xsd:complexType>
+			<xsd:choice maxOccurs="unbounded">
+				<xsd:element name="movil" minOccurs="0" maxOccurs="unbounded">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="marca" type="xsd:string"/>
+							<xsd:element name="compania" type="xsd:string"/>
+							<xsd:element name="ram" type="xsd:string"/>
+							<xsd:element name="precio" type="xsd:string"/>
+							<xsd:element name="pantalla" type="xsd:string"/>
+							<xsd:element name="procesador" type="xsd:string"/>
+						</xsd:sequence>
+						<xsd:attribute name="sistema_operativo" type="xsd:string"/>
+						<xsd:attribute name="codigo_IMEI" type="xsd:string"/>
+						<xsd:attribute name="discoduro" type="xsd:string"/>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:choice>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>
